@@ -13,7 +13,7 @@ import { Divider } from 'react-native-elements'
 export default function Home({navigation}) {
 
   const [restaurantData , setRestaurantData] = React.useState(localRestaurants);
-  const [city , setCity] = React.useState("Canadian");
+  const [city , setCity] = React.useState("American");
   const [activeTab , setactiveTab ] = React.useState("Chicken");
   const getRestaurantsFromYelp = () => { 
     fetch(`https://www.themealdb.com/api/json/v1/1/filter.php?a=${city}`)
