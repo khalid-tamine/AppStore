@@ -5,8 +5,8 @@ import { TouchableOpacity } from 'react-native-web'
 export default function HeaderTabs(props) {
   return (
     <View style = {{ flexDirection : "row", alignSelf : "center" }}>
-      <HeaderButtons text = "Beef" btnColor="black" textColor ="white" activeTab ={props.activeTab} setactiveTab = { props.setactiveTab } />
-      <HeaderButtons text = "Chicken" btnColor="white" textColor ="black" activeTab ={props.activeTab} setactiveTab ={props.setactiveTab} />
+      <HeaderButtons text = "Homemade" btnColor="black" textColor ="white" activeTab ={props.activeTab} setactiveTab = { props.setactiveTab } />
+      <HeaderButtons text = "Fast Food" btnColor="white" textColor ="black" activeTab ={props.activeTab} setactiveTab ={props.setactiveTab} />
 
     </View>
   )

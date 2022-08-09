@@ -54,7 +54,7 @@ export default function RestaurantItems( {navigation , ...props}) {
               style={{ marginTop: 10, padding: 15, backgroundColor: "white" }}
             >
               <RestaurantImage image = {restaurant.strMealThumb}  />
-              <RestaurantInfo  name = {restaurant.strMeal} rating = {restaurant.strCategory} />   
+              <RestaurantInfo  name = {restaurant.strMeal} rating = '3.5' />   
             </View>
           </TouchableOpacity>
         ))}
@@ -108,7 +108,7 @@ const RestaurantInfo = (props) => (
           borderRadius: 15,
         }}
       >
-        <Text>{props.rating}</Text>
+        <Text style = {{color : "	#696969"}}>{props.rating}</Text>
       </View>
     </View>
   );

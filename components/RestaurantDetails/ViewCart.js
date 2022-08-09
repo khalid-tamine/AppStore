@@ -132,9 +132,9 @@ export default function ViewCart({ navigation}) {
             flex : 1,
             alignItems : 'center',
             flexDirection : 'row',
-            justifyContent : 'center',
-            position : 'absolute',
-            bottom : 80,
+            justifyContent : 'flex-end',
+            position : 'relative',
+            marginBottom : 20,
             zindex : 999,
         }}
     >
@@ -147,20 +147,19 @@ export default function ViewCart({ navigation}) {
         >
             <TouchableOpacity
                 style = {{
-                margintTop: 20,
+               
                 flexDirection : 'row',
-                justifyContent : 'flex-end',
+                justifyContent : 'flex-start',
                 backgroundColor: 'black',
-                alignItems: 'center',
                 padding: 15,
                 borderRadius: 30,
                 width: 300,
-                position : 'relative',  
+                position : 'rel ative',  
                 }}  
                 onPress={() => setModalVisible(true)}
             >
-                <Text style = {{color : 'white', fontSize : 20, marginRight : 30 }} >ViewCart</Text>
-                <Text style = {{color : 'white' ,  fontSize : 20}} >{totalUSD}</Text>
+                <Text style = {{color : 'white', fontSize : 20 , marginLeft : 26 }} >ViewCart</Text>
+                <Text style = {{color : 'white' ,  fontSize : 20 , marginTop : 1 , marginLeft : 76 }} >{totalUSD}</Text>
             </TouchableOpacity>
         </View>
     </View>

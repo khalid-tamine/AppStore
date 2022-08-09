@@ -23,8 +23,8 @@ export default function About(props) {
   const formattedCategories = categories;
   //const formattedCategories = categories.map((cat) => cat.title ).join('.'); 
 
-  const description = `${formattedCategories} ${
-    price ? " • " + price : ""
+  const description = ` ${
+    price ?  price : ""
   } • 🎫 • ${rating} ⭐ (${reviews}+)`;
 
   return (
@@ -42,10 +42,10 @@ const RestaurantImage = (props) =>  (
 
 
 const RestaurantName = (props) => (
-    <Text style={{ fontSize: 29, fontWeight: 'bold', marginTop: 10 }}>{props.name}</Text>
+    <Text style={{ fontSize: 29, fontWeight: 'bold', marginTop: 10 , marginLeft: 6 }}>{props.name}</Text>
     )
 
 
 const RestaurantDescription = (props) => (
-    <Text style={{ fontSize: 15.5, fontWeight:"400", marginHorizontal: 15, marginTop: 10 }}>{props.description}</Text>
+    <Text style={{ fontSize: 15.5, fontWeight:"400", marginHorizontal: 15, marginTop: 10  }}>{props.description}</Text>
     )    

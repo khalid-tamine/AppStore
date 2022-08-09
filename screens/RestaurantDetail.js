@@ -7,22 +7,22 @@ import ViewCart from '../components/RestaurantDetails/ViewCart'
 
 const foods = [
   {
-      title: 'Chicken',
+      title: 'Pancake Banana with Chocolate',
       price: '$10.00',
-      description: 'Chicken is a meaty dish made of meat and vegetables.',
-      image : 'https://images.pexels.com/photos/262978/pexels-photo-262978.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500'
+      description: 'With butter lettuce, dark chocolat and chocolate syrup',
+      image : 'https://www.cuisinelolo.fr/wp-content/uploads/2014/05/Pancakes-%C3%A0-la-banane-6.jpg'
   },
   {
-      title: 'Beef',
+      title: 'Pancake Banana with Strawberry',
       price: '$12.00',
-      description: 'Beef is a meaty dish made of meat and vegetables.',
-      image : 'https://images.pexels.com/photos/262978/pexels-photo-262978.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500'
+      description: 'With creme fraiche and strawberry',
+      image : 'https://assets.afcdn.com/recipe/20200303/108677_w1024h768c1cx1626cy1839.webp'
   },
   {
-      title: 'Pork',
+      title: 'Panckage Banana with Vanilla',
       price: '$10.00',
-      description : 'pork is delicious',
-      image : 'https://images.pexels.com/photos/262978/pexels-photo-262978.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500'
+      description : 'With butter and creme fraiche',
+      image : 'https://recette.supertoinette.com/151531/b/pancakes-a-la-banane.jpg'
   }
 ]
 
