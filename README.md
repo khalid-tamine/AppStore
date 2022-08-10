@@ -24,9 +24,9 @@ Home           |  Details
 
 Place Order         |  Order Details     
 :------------------:|:------------------:
-![](details_2.PNG)  |  ![](cehckout.PNG)
+![](details_2.PNG)  |  ![](checkout.PNG)
 
-Order Completed|  Saved Order 
-:-------------:|:------------------:
-![](ordercompleted.PNG)  |  ![](savedorder.PNG)
+Order Completed          |  Saved Order 
+:-----------------------:|:------------------:
+![](ordercompleted.PNG)  |  ![](saved_order.PNG)
 
