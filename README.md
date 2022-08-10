@@ -20,13 +20,13 @@ you have selected and confirm your order . When you confirm your order it is rec
 
 Home           |  Details
 :-------------:|:------------------:
-![](AppImages/home.PNG)  |  ![](details.PNG)
+![](AppImages/home.PNG)  |  ![](AppImages/HomeDetails.PNG)
 
 Place Order         |  Order Details     
 :------------------:|:------------------:
-![](details_2.PNG)  |  ![](checkout.PNG)
+![](AppImages/CartDetails.PNG)  |  ![](AppImages/checkout.PNG)
 
 Order Completed          |  Saved Order 
 :-----------------------:|:------------------:
-![](ordercompleted.PNG)  |  ![](saved_order.PNG)
+![](AppImages/ordercompleted.PNG)  |  ![](AppImages/SavedOrder.PNG)
 
