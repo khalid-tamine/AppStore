@@ -24,9 +24,9 @@ Home           |  Details
 
 Place Order         |  Order Details     
 :------------------:|:------------------:
-![](AppImages/CartDetails.PNG)  |  ![](AppImages/checkout.PNG)
+![](AppImages/CartDetails.PNG)  |  ![](AppImages/Checkout.PNG)
 
 Order Completed          |  Saved Order 
 :-----------------------:|:------------------:
-![](AppImages/ordercompleted.PNG)  |  ![](AppImages/SavedOrder.PNG)
+![](AppImages/OrderCompleted.PNG)  |  ![](AppImages/SavedOrder.PNG)
 
