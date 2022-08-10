@@ -20,7 +20,7 @@ you have selected and confirm your order . When you confirm your order it is rec
 
 Home           |  Details
 :-------------:|:------------------:
-![](home.PNG)  |  ![](details.PNG)
+![](AppImages/home.PNG)  |  ![](details.PNG)
 
 Place Order         |  Order Details     
 :------------------:|:------------------:
